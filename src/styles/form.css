@@ -1,0 +1,19 @@
+/* Style dùng chung cho các trang dạng form (tạo/sửa dự án, tạo subtask) */
+.form-breadcrumb { font-size: 24px; color: #8a8fb8; margin-bottom: 28px; }
+.form-breadcrumb a { color: inherit; text-decoration: none; }
+.form-card { background: #fff; border-radius: 22px; padding: 34px 30px; box-shadow: 0 2px 10px rgba(15, 48, 87, 0.06); }
+.form-grid { display: grid; grid-template-columns: 1.5fr 1.5fr 1fr 1fr; gap: 26px; }
+.form-field { display: flex; flex-direction: column; gap: 10px; margin-bottom: 22px; }
+.form-field label, .form-label { font-size: 20px; color: #0d2b4d; }
+.form-field input, .form-field select, .form-field textarea { border: 1px solid #d3d9e6; border-radius: 14px; padding: 14px 18px; font-size: 17px; color: #0d2b4d; background: #fff; outline: none; }
+.form-field input:focus, .form-field select:focus, .form-field textarea:focus { border-color: #0b6bff; }
+.form-field textarea { min-height: 110px; resize: vertical; font-size: 15px; }
+.form-bottom { display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; flex-wrap: wrap; margin-top: 8px; }
+.form-actions { display: flex; gap: 18px; align-items: center; }
+.form-error { color: #d92d20; font-size: 15px; margin: 4px 0 16px; }
+.btn-primary, .btn-light, .btn-green { border: none; border-radius: 12px; padding: 16px 28px; font-size: 17px; cursor: pointer; }
+.btn-primary { background: #0b6bff; color: #fff; }
+.btn-light { background: #eaf1fc; color: #0b6bff; }
+.btn-green { background: #dff3e6; color: #1f9d55; }
+.btn-primary:disabled, .btn-light:disabled { opacity: 0.6; cursor: not-allowed; }
+@media (max-width: 900px) { .form-grid { grid-template-columns: 1fr 1fr; } }

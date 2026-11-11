@@ -1,0 +1,18 @@
+.pcard { background: #fff; border-radius: 18px; padding: 22px 24px; display: flex; flex-direction: column; box-shadow: 0 2px 10px rgba(15, 48, 87, 0.06); }
+.pcard-head { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 12px; border-bottom: 1px solid #111; }
+.pcard-head h3 { font-size: 26px; font-weight: 600; color: #000; display: flex; align-items: center; gap: 12px; }
+.pcard-edit { color: #333; display: flex; }
+.pcard-badge { font-size: 12px; padding: 10px 16px; border-radius: 4px; }
+.badge-Offtrack { background: #fbe3e3; color: #d32f2f; }
+.badge-OnTrack { background: #dff3ec; color: #1b8a6b; }
+.badge-Completed { background: #dff3e6; color: #1f9d55; }
+.pcard-desc { margin: 18px 0; font-size: 13px; line-height: 1.6; color: #111; flex: 1; }
+.pcard-deadline { display: flex; align-items: center; gap: 6px; color: #e53935; font-size: 15px; margin-bottom: 16px; }
+.pcard-foot { display: flex; justify-content: space-between; align-items: center; }
+.pcard-avatars { display: flex; align-items: center; }
+.pcard-avatars img, .pcard-more { width: 36px; height: 36px; border-radius: 50%; border: 2px solid #fff; margin-left: -6px; object-fit: cover; background: #cfd9ea; }
+.pcard-avatars img:first-child { margin-left: 0; }
+.pcard-more { display: flex; align-items: center; justify-content: center; background: #fde3e6; color: #e0556b; font-size: 13px; }
+.pcard-issues { display: flex; align-items: center; gap: 6px; font-size: 14px; color: #333; }
+.pcard-link { color: inherit; text-decoration: none; }
+.pcard-link:hover { color: #0b6bff; }

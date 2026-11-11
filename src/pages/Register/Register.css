@@ -1,0 +1,7 @@
+/* Dùng lại style của trang Login, chỉ chỉnh thêm cho trang Register */
+@import '../Login/Login.css';
+
+.register-page { display: flex; align-items: center; justify-content: center; }
+.register-page .login-form { width: 100%; }
+.register-page .login-sub { margin-bottom: 20px; }
+.register-error { margin-top: 18px; }

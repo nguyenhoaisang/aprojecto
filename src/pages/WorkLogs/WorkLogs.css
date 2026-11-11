@@ -1,0 +1,15 @@
+.wl-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 22px; }
+.wl-head h1 { font-size: 30px; font-weight: 500; }
+.wl-total { background: #dff3ec; color: #1b8a6b; padding: 10px 20px; border-radius: 10px; }
+.wl-form { display: grid; grid-template-columns: 2fr 1fr 0.7fr 1.4fr auto; gap: 18px; align-items: end; margin-bottom: 20px; padding: 24px; }
+.wl-form .form-field { margin-bottom: 0; }
+.wl-form .form-field label { font-size: 15px; }
+.wl-form .form-field input, .wl-form .form-field select { font-size: 14px; padding: 12px 14px; }
+.wl-btn { height: 46px; padding: 0 26px; }
+.wl-table-wrap { background: #fff; border-radius: 16px; padding: 10px 20px; overflow-x: auto; }
+.wl-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.wl-table th { text-align: left; color: #6b7a96; font-weight: 500; padding: 14px 10px; border-bottom: 1px solid #e3e7ef; }
+.wl-table td { padding: 14px 10px; border-bottom: 1px solid #f0f2f7; }
+.wl-del { background: none; border: none; color: #d92d20; cursor: pointer; }
+.wl-empty { text-align: center; color: #6b7a96; }
+@media (max-width: 1000px) { .wl-form { grid-template-columns: 1fr 1fr; } }

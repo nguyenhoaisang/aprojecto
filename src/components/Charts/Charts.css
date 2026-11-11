@@ -1,0 +1,7 @@
+.chart-legend { list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 14px; }
+.chart-legend i { display: inline-block; width: 14px; height: 14px; margin-right: 10px; }
+.chart-legend.line { flex-direction: row; justify-content: flex-end; gap: 24px; color: #4d6485; }
+.chart-legend.line i { width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+.chart-line { height: 250px; margin-top: 6px; }
+.chart-row { display: flex; align-items: center; gap: 30px; }
+.chart-donut { width: 260px; height: 260px; flex-shrink: 0; }

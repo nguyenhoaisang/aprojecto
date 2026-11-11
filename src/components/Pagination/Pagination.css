@@ -1,0 +1,5 @@
+.pagination { display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 36px; }
+.page-nav { background: none; border: none; color: #8a93a6; font-size: 13px; cursor: pointer; }
+.page-nav:disabled { opacity: 0.4; cursor: default; }
+.page-num { width: 30px; height: 30px; border: none; border-radius: 6px; background: #e3e7ee; color: #333; font-size: 12px; cursor: pointer; }
+.page-num.active { background: #0a3d91; color: #fff; }

@@ -1,0 +1,9 @@
+.set-card h2 { font-size: 20px; font-weight: 500; margin: 26px 0 14px; }
+.set-card h2:first-child { margin-top: 0; }
+.set-row { display: flex; align-items: center; gap: 14px; font-size: 16px; padding: 8px 0; cursor: pointer; }
+.set-row input { width: 20px; height: 20px; cursor: pointer; }
+.set-pass { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.set-pass .form-field label { font-size: 15px; }
+.set-ok { color: #1f9d55; margin: 4px 0 14px; }
+.set-card .btn-primary { margin-top: 10px; }
+@media (max-width: 900px) { .set-pass { grid-template-columns: 1fr; } }
